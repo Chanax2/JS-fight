@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(29,69,140,255);
+}
+
+footer {
+  background-color: rgb(126, 166, 199);
+  height: 200px;
+  width: 100%;
+  margin-top:190px;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.position_fixed {
+  position: fixed;
+}
+
+/* mais marche bon dieu */
+.bouton-connexion {
+  background-color: #137ab5; 
+  color: white; 
+  border-radius: 3rem;
+  border: none;
+  padding: 10px ;
+  cursor: pointer;
+  height: 50px;
+  width: 110px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.pargraphe_presentation {
+  color: white;
+  font-size: 24px;
+}
+
+.ligne-bleue {
+  border: none; 
+  border-top: 3px solid rgb(25, 191, 216); 
+  width: 10%; 
+  margin: 10px ;
+}
+
+.bouton-connexion:hover {
+  background-color: #4f96bf
+}
+
+.Action-utilisateur {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 100px;
+  margin-right: 8px;
+  font-size: 20px;
+  border-radius: 20px;
+  color:rgb(29,69,140,255);
+}
+
+.Action-utilisateur:hover {
+  background-color: rgb(238, 238, 238);
+  width: 35%;
+  cursor: pointer;
+}
+
+.player {
+  background-color: rgb(126, 142, 6);
+  width: 640px;
+  height: 480px;
+
+}
+/* ici je met une résolution de 480p pour avoir le même ratio qeu la 1080p/4k */
+
+.vidéo-container {
+  background-color: rgb(86, 103, 132);
+  height: auto;
+  
+}
+
+.vidéo-container p {
+  margin-top: 20px; /* Ajoute une marge supérieure au texte */
+  color: white;
+  margin: 20px;
+}
+
+
+
+.contact{
+  margin: 10px;
+}
+
+/* article {
+
+} */
+
+#logo_Ursaff {
+  height: 60px;
+}
+
+#section-ation {
+  background-color: rgba(86,223,231,255);
+  height: 50%;
+}
+
+
+#header {
+  background-color: rgba(29,69,140,255);
+  height: 11%;
+  width: 100%;
+}
+
+#main {
+  background-color: rgba(29,69,140,255);
+  height: 1000px;
+  width: 100%;
+  padding-top: 11%;
+}
+
+.black_texte {
+  color: black;
+}
+
+.black_background {
+  background-color: black;
+}
+
+.texte {
+  color: green;
+}
+
+
+
+.tabContainerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(86, 103, 132, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.tab {
+  padding: 10px 20px;
+  background-color: rgb(229, 164, 0);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.tab-active {
+  background-color: chocolate;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.tab:hover {
+  background-color: rgba(255, 204, 77, 0.9);
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+
+.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  display: none; /* Masqué par défaut */
+}
+
+.active {
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+.active {
+  display: contents;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.dark-mode .Action-utilisateur {
+  background-color: rgba(50, 50, 50, 1);
+  color: white;
+}
+
+body.dark-mode footer {
+  background-color: rgb(40, 40, 40);
+}
+
+body.dark-mode .tabContainerDiv {
+  background-color: rgb(60, 60, 60);
+}
+
+body.dark-mode .tab {
+  background-color: rgb(100, 100, 100);
+}
+
+body.dark-mode .tab-active {
+  background-color: rgb(150, 150, 150);
+}

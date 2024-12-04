@@ -1,0 +1,27 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: black;
+}
+
+
+.display_none {
+  display: none;
+}
+
+.visibility_none {
+  visibility: hidden ;
+}
+
+.white_color {
+  color: rgb(255, 255, 255);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: red;
+  }
+}
+
